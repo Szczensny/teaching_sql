@@ -15,6 +15,9 @@ Only if you want to load example dataset into postgres:
 To raise containers run from a main catalog:
 `docker compose up -d`
 
+Stop containers run from a main catalog:
+`docker compose down`
+
 To load example data run from a main catalog:
 `python3 data_import.py`
 
