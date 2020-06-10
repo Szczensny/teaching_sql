@@ -13,10 +13,10 @@ Only if you want to load example dataset into postgres:
         * pandas
 
 To raise containers run from a main catalog:
-`docker compose up -d`
+`docker-compose up -d`
 
 Stop containers run from a main catalog:
-`docker compose down`
+`docker-compose down`
 
 To load example data run from a main catalog:
 `python3 data_import.py`
@@ -25,7 +25,7 @@ To login into pgAdmin:
 1. open in web browser http://localhost:5050
 2. login using user postgres password postgres
 
-When adding server in pgAdmin use those creds
+When adding server in pgAdmin use those creds (right click on Servers then Create -> Server...)
 - user: _postgres_ 
 - password: _postgres_ 
 - database: _postgres_ 
